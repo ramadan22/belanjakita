@@ -1,0 +1,11 @@
+.banner-component .slick-arrow {
+    display: none !important;
+}
+
+.banner-component .slick-list:focus {
+    outline: none;
+}
+
+.banner-component img {
+    width: 100%;
+}

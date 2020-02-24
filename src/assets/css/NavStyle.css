@@ -8,6 +8,10 @@
     padding-top: 15px;
 }
 
+.nav-header .row .column:nth-child(1) {
+    padding-left: 0px;
+}
+
 .nav-header .row .column:nth-child(1) img {
     width: 100%;
 }
@@ -140,6 +144,14 @@
 .nav-header .category-wrap .list-category-wrap a {
     display: inline-block;
     color: #0bc597;
+}
+
+.nav-header .category-wrap .list-category-wrap a:hover {
+    text-decoration: none;
+}
+
+.nav-header .category-wrap .slick-arrow {
+    display: none !important;
 }
 
 .nav-header .category-wrap .list-category-wrap .list-categroy {

@@ -2,6 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavComponent from './component/header/NavComponent';
+import BannerComponent from './component/header/BannerComponent';
+import PanelHighlight from './component/highlight/PanelHighlightComponent';
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -9,6 +11,8 @@ function App() {
   return (
     <div>
       <NavComponent />
+      <BannerComponent />
+      <PanelHighlight />
     </div>
   )
 }

@@ -1,0 +1,39 @@
+.panel-hightlight .row {
+    border: solid 1px #ddd;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 0 12px 0px rgba(188, 188, 188, 0.36);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
+.panel-hightlight .panel-list {
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+.panel-hightlight .panel-list img {
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+}
+
+.panel-hightlight .panel-list p {
+    display: inline-block;
+    line-height: 20px;
+    float: left;
+    margin-top: 3px;
+}
+
+.panel-hightlight .panel-list p span {
+    font-size: 13px;
+    color: #0bc597;
+}
+
+.panel-hightlight .panel-list p span:nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+    color: #07ab82;
+}
