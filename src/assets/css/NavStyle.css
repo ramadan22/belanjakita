@@ -1,0 +1,13 @@
+.nav-header .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-header .row .column:nth-child(1) img {
+    width: 100%;
+}
+
+.nav-header .row .column:nth-child(2) p {
+    font-size: 14px;
+    line-height: 20px;
+}
